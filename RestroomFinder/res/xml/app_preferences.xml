@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/show"><CheckBoxPreference android:key="show_fountain" android:title="@string/show_fountain" android:icon="@drawable/tap_colorbox" android:defaultValue="true" /><CheckBoxPreference android:key="show_toilet" android:title="@string/show_toilet" android:icon="@drawable/toilet_colorbox" android:defaultValue="true" /><CheckBoxPreference android:key="show_rest" android:title="@string/show_restaurant" android:summary="@string/show_rest_warn" android:icon="@drawable/rest_colorbox" android:defaultValue="false" /></PreferenceCategory>
+    <Preference android:summary="@string/sign_out_subtitle" android:key="sign_out" android:title="@string/sign_out"/>
+    
+    
+    
+    
+
+</PreferenceScreen>
